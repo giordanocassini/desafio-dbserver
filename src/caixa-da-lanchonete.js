@@ -14,7 +14,9 @@ class CaixaDaLanchonete {
         });
 
         if (valores.includes(0)) return "Quantidade inválida!";
-
+        if (chaves.includes("queijo") && !chaves.includes("sanduiche")) return "Item extra não pode ser pedido sem o principal";
+        if (chaves.includes("chantily") && !chaves.includes("cafe")) return "Item extra não pode ser pedido sem o principal";
+        
 
         return "";
     }
