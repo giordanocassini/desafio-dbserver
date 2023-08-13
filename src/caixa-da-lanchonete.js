@@ -46,7 +46,7 @@ class CaixaDaLanchonete {
         break;
     }
 
-    return 'R$ ' + valorAPagar.toFixed(2).replace('.', ',');
+    return 'R$ ' + valorAPagar.toFixed(2).replace('.', ','); // formata a string a ser retornada para que se adeque aos testes.
   }
 }
 
