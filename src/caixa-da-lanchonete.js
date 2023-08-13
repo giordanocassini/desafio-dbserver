@@ -2,7 +2,7 @@
 // "cardapio" e "valores" são dois arrays organizados de forma que o index do elemento em um seja igual ao index do seu elemento correspondente no outro.
 import cardapio from './database/cardapio';
 import valores from './database/valores';
-
+// "formaDePagamento" é um array com as formas de pagamento.
 import formasDePagamento from './database/formasDePagamento';
 
 class CaixaDaLanchonete {
